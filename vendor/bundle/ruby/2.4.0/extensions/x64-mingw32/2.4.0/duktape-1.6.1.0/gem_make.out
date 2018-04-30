@@ -1,0 +1,141 @@
+current directory: D:/doc/my_ruby_on_rails/myapp/vendor/bundle/ruby/2.4.0/gems/duktape-1.6.1.0/ext/duktape
+d:/Ruby24-x64/bin/ruby.exe -r ./siteconf20180430-8876-d3jqfi.rb extconf.rb
+checking for rb_sym2str()... yes
+creating Makefile
+
+current directory: D:/doc/my_ruby_on_rails/myapp/vendor/bundle/ruby/2.4.0/gems/duktape-1.6.1.0/ext/duktape
+make "DESTDIR=" clean
+
+current directory: D:/doc/my_ruby_on_rails/myapp/vendor/bundle/ruby/2.4.0/gems/duktape-1.6.1.0/ext/duktape
+make "DESTDIR="
+generating duktape_ext-x64-mingw32.def
+compiling duktape.c
+compiling duktape_ext.c
+In file included from D:/Ruby24-x64/include/ruby-2.4.0/ruby.h:33:0,
+                 from duktape_ext.c:1:
+duktape_ext.c: In function 'ctx_call_prop':
+duktape_ext.c:519:41: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+   rb_scan_args(argc, argv, "1*", &prop, &prop_args);
+                                         ^
+D:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:2201:7: note: in definition of macro 'rb_scan_args_verify_count'
+     ((varc)/(rb_scan_args_count(fmt, varc)))
+       ^~~~
+D:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:2324:9: note: in expansion of macro 'rb_scan_args_verify'
+        (rb_scan_args_verify(fmt, varc), vars))
+         ^~~~~~~~~~~~~~~~~~~
+D:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:2151:9: note: in expansion of macro 'rb_scan_args0'
+         rb_scan_args0(argc,argvp,fmt,\
+         ^~~~~~~~~~~~~
+duktape_ext.c:519:3: note: in expansion of macro 'rb_scan_args'
+   rb_scan_args(argc, argv, "1*", &prop, &prop_args);
+   ^
+duktape_ext.c:519:41: note: (near initialization for '(anonymous)[1]')
+   rb_scan_args(argc, argv, "1*", &prop, &prop_args);
+                                         ^
+D:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:2201:7: note: in definition of macro 'rb_scan_args_verify_count'
+     ((varc)/(rb_scan_args_count(fmt, varc)))
+       ^~~~
+D:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:2324:9: note: in expansion of macro 'rb_scan_args_verify'
+        (rb_scan_args_verify(fmt, varc), vars))
+         ^~~~~~~~~~~~~~~~~~~
+D:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:2151:9: note: in expansion of macro 'rb_scan_args0'
+         rb_scan_args0(argc,argvp,fmt,\
+         ^~~~~~~~~~~~~
+duktape_ext.c:519:3: note: in expansion of macro 'rb_scan_args'
+   rb_scan_args(argc, argv, "1*", &prop, &prop_args);
+   ^
+duktape_ext.c:519:41: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+   rb_scan_args(argc, argv, "1*", &prop, &prop_args);
+                                         ^
+D:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:2197:10: note: in definition of macro 'rb_scan_args_count'
+      == (varc) || \
+          ^~~~
+D:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:2209:11: note: in expansion of macro 'rb_scan_args_verify_count'
+  verify = rb_scan_args_verify_count(fmt, varc); \
+           ^~~~~~~~~~~~~~~~~~~~~~~~~
+D:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:2324:9: note: in expansion of macro 'rb_scan_args_verify'
+        (rb_scan_args_verify(fmt, varc), vars))
+         ^~~~~~~~~~~~~~~~~~~
+D:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:2151:9: note: in expansion of macro 'rb_scan_args0'
+         rb_scan_args0(argc,argvp,fmt,\
+         ^~~~~~~~~~~~~
+duktape_ext.c:519:3: note: in expansion of macro 'rb_scan_args'
+   rb_scan_args(argc, argv, "1*", &prop, &prop_args);
+   ^
+duktape_ext.c:519:41: note: (near initialization for '(anonymous)[1]')
+   rb_scan_args(argc, argv, "1*", &prop, &prop_args);
+                                         ^
+D:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:2197:10: note: in definition of macro 'rb_scan_args_count'
+      == (varc) || \
+          ^~~~
+D:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:2209:11: note: in expansion of macro 'rb_scan_args_verify_count'
+  verify = rb_scan_args_verify_count(fmt, varc); \
+           ^~~~~~~~~~~~~~~~~~~~~~~~~
+D:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:2324:9: note: in expansion of macro 'rb_scan_args_verify'
+        (rb_scan_args_verify(fmt, varc), vars))
+         ^~~~~~~~~~~~~~~~~~~
+D:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:2151:9: note: in expansion of macro 'rb_scan_args0'
+         rb_scan_args0(argc,argvp,fmt,\
+         ^~~~~~~~~~~~~
+duktape_ext.c:519:3: note: in expansion of macro 'rb_scan_args'
+   rb_scan_args(argc, argv, "1*", &prop, &prop_args);
+   ^
+duktape_ext.c:519:41: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+   rb_scan_args(argc, argv, "1*", &prop, &prop_args);
+                                         ^
+D:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:2198:40: note: in definition of macro 'rb_scan_args_count'
+      rb_scan_args_length_mismatch(fmt, varc))
+                                        ^~~~
+D:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:2209:11: note: in expansion of macro 'rb_scan_args_verify_count'
+  verify = rb_scan_args_verify_count(fmt, varc); \
+           ^~~~~~~~~~~~~~~~~~~~~~~~~
+D:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:2324:9: note: in expansion of macro 'rb_scan_args_verify'
+        (rb_scan_args_verify(fmt, varc), vars))
+         ^~~~~~~~~~~~~~~~~~~
+D:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:2151:9: note: in expansion of macro 'rb_scan_args0'
+         rb_scan_args0(argc,argvp,fmt,\
+         ^~~~~~~~~~~~~
+duktape_ext.c:519:3: note: in expansion of macro 'rb_scan_args'
+   rb_scan_args(argc, argv, "1*", &prop, &prop_args);
+   ^
+duktape_ext.c:519:41: note: (near initialization for '(anonymous)[1]')
+   rb_scan_args(argc, argv, "1*", &prop, &prop_args);
+                                         ^
+D:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:2198:40: note: in definition of macro 'rb_scan_args_count'
+      rb_scan_args_length_mismatch(fmt, varc))
+                                        ^~~~
+D:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:2209:11: note: in expansion of macro 'rb_scan_args_verify_count'
+  verify = rb_scan_args_verify_count(fmt, varc); \
+           ^~~~~~~~~~~~~~~~~~~~~~~~~
+D:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:2324:9: note: in expansion of macro 'rb_scan_args_verify'
+        (rb_scan_args_verify(fmt, varc), vars))
+         ^~~~~~~~~~~~~~~~~~~
+D:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:2151:9: note: in expansion of macro 'rb_scan_args0'
+         rb_scan_args0(argc,argvp,fmt,\
+         ^~~~~~~~~~~~~
+duktape_ext.c:519:3: note: in expansion of macro 'rb_scan_args'
+   rb_scan_args(argc, argv, "1*", &prop, &prop_args);
+   ^
+duktape_ext.c:519:41: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+   rb_scan_args(argc, argv, "1*", &prop, &prop_args);
+                                         ^
+D:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:2324:41: note: in definition of macro 'rb_scan_args0'
+        (rb_scan_args_verify(fmt, varc), vars))
+                                         ^~~~
+duktape_ext.c:519:3: note: in expansion of macro 'rb_scan_args'
+   rb_scan_args(argc, argv, "1*", &prop, &prop_args);
+   ^
+duktape_ext.c:519:41: note: (near initialization for '(anonymous)[1]')
+   rb_scan_args(argc, argv, "1*", &prop, &prop_args);
+                                         ^
+D:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:2324:41: note: in definition of macro 'rb_scan_args0'
+        (rb_scan_args_verify(fmt, varc), vars))
+                                         ^~~~
+duktape_ext.c:519:3: note: in expansion of macro 'rb_scan_args'
+   rb_scan_args(argc, argv, "1*", &prop, &prop_args);
+   ^
+linking shared-object duktape_ext.so
+
+current directory: D:/doc/my_ruby_on_rails/myapp/vendor/bundle/ruby/2.4.0/gems/duktape-1.6.1.0/ext/duktape
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 duktape_ext.so ./.gem.20180430-8876-w6duob
